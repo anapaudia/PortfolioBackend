@@ -16,7 +16,7 @@ import com.portfolio.anapaudia.Security.Service.UsuarioService;
 import com.portfolio.anapaudia.Security.jwt.JwtProvider;
 import java.util.HashSet;
 import java.util.Set;
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

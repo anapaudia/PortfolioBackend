@@ -48,7 +48,7 @@ public class PersonaController {
         }
         personaService.delete(id);
         return new ResponseEntity(new Mensaje("Educacion eliminada"), HttpStatus.OK);
-    }*/
+    }
     
     /*@PostMapping("/create")
     public ResponseEntity<?> create(@RequestBody dtoEducacion dtoeducacion){

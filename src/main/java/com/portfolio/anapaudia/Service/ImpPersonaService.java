@@ -4,7 +4,7 @@ import com.portfolio.anapaudia.Entity.Persona;
 import com.portfolio.anapaudia.Repository.IPersonaRepository;
 import java.util.List;
 import java.util.Optional;
-import javax.transaction.Transactional;
+import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

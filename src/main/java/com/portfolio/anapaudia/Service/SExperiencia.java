@@ -9,7 +9,7 @@ import com.portfolio.anapaudia.Entity.Experiencia;
 import com.portfolio.anapaudia.Repository.RExperiencia;
 import java.util.List;
 import java.util.Optional;
-import javax.transaction.Transactional;
+import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
